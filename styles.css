@@ -57,4 +57,12 @@ a {
   border: 1px solid white;
 }
 
+.container {
+  display: flex;
+}
+
+.container img {
+  width: 200px;
+}
+
 
