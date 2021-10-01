@@ -18,7 +18,8 @@ header {
   gap: 20px;
 }
 
-a {
+.nav-right a,
+footer a{
   text-decoration: none;
   color: white;
 }
@@ -60,13 +61,14 @@ a {
 .types {
   text-align: center;
   background-color: #E5E7EB;
-  padding: 50px 50px;
+  padding: 100px 50px;
 }
 
 .types h3{
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
+  margin-top: 0px;
 }
 
 .container {
@@ -86,11 +88,10 @@ a {
 }
 
 .quotes {
-  padding: 50px;
+  padding: 100px 50px;
 }
 
 .quote {
-  padding: 50px;
   max-width: 1000px;
   text-align: center;
   margin-left: auto;
@@ -114,7 +115,7 @@ a {
 
 .sign-up {
   background-color: #E5E7EB;
-  padding: 50px 50px;
+  padding: 100px 50px;
 }
 
 .blue {
@@ -136,4 +137,9 @@ a {
   font-weight: bolder;
 }
 
-
+footer {
+  background-color: #262a47;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
