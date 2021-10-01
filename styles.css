@@ -57,12 +57,32 @@ a {
   border: 1px solid white;
 }
 
-.container {
-  display: flex;
+.types {
+  text-align: center;
+  background-color: #d2d2d2;
+  padding: 50px 50px;
 }
 
-.container img {
+.types h3{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.type-card {
   width: 200px;
+}
+.type-card img {
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 
