@@ -59,7 +59,7 @@ a {
 
 .types {
   text-align: center;
-  background-color: #d2d2d2;
+  background-color: #E5E7EB;
   padding: 50px 50px;
 }
 
@@ -83,6 +83,29 @@ a {
   width: 200px;
   border: 2px solid white;
   border-radius: 10px;
+}
+
+.quotes {
+  padding: 50px;
+  max-width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.quotes p:first-child {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quotes p:last-child {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: end;
+  margin-right: 20px;
+
 }
 
 
